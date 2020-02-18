@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="SpbMetroX.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpbMetroX"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <WebView x:Name="webView1"
+                 Grid.Row="0" Grid.Column="0"/>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                *Время может отличаться от фактического
+            </TextBlock>
+            <TextBlock x:Name="fromField" Grid.Row="1" Grid.Column="0" Text="Откуда" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="toField" Grid.Row="2" Grid.Column="0" Text="Куда" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="timeField" Grid.Row="1" Grid.Column="1" Text="Время" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Button x:Name="clearButton" Grid.Row="2" Grid.Column="1" Width="100">Очистить</Button>
+
+        </Grid>
+        <Popup x:Name="stationsPopup">
+
+            <ListView x:Name="stationsList" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                      Height="Auto" Width="300" BorderThickness="5" BorderBrush="Gray">
+
+            </ListView>
+
+        </Popup>
+    </Grid>
+</Page>

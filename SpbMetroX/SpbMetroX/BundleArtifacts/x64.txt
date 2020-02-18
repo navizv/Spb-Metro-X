@@ -1,0 +1,2 @@
+MainPackage=C:\Users\zayce\Documents\Visual Studio 2015\Projects\SpbMetroX\SpbMetroX\bin\x64\Release\SpbMetroX_1.1.29.0_x64.msix
+SymbolPackage=C:\Users\zayce\Documents\Visual Studio 2015\Projects\SpbMetroX\SpbMetroX\obj\x64\Release\Symbols\SpbMetroX_1.1.29.0_x64.appxsym

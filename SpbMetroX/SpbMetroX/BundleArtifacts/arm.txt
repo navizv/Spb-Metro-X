@@ -1,0 +1,6 @@
+MainPackage=C:\Users\zayce\Documents\Visual Studio 2015\Projects\SpbMetroX\SpbMetroX\bin\ARM\Release\SpbMetroX_1.1.29.0_ARM.msix
+SymbolPackage=C:\Users\zayce\Documents\Visual Studio 2015\Projects\SpbMetroX\SpbMetroX\obj\ARM\Release\Symbols\SpbMetroX_1.1.29.0_ARM.appxsym
+ResourcePack=C:\Users\zayce\Documents\Visual Studio 2015\Projects\SpbMetroX\SpbMetroX\bin\ARM\Release\SpbMetroX_1.1.29.0_scale-100.msix
+ResourcePack=C:\Users\zayce\Documents\Visual Studio 2015\Projects\SpbMetroX\SpbMetroX\bin\ARM\Release\SpbMetroX_1.1.29.0_scale-125.msix
+ResourcePack=C:\Users\zayce\Documents\Visual Studio 2015\Projects\SpbMetroX\SpbMetroX\bin\ARM\Release\SpbMetroX_1.1.29.0_scale-150.msix
+ResourcePack=C:\Users\zayce\Documents\Visual Studio 2015\Projects\SpbMetroX\SpbMetroX\bin\ARM\Release\SpbMetroX_1.1.29.0_scale-400.msix
